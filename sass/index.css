@@ -1,0 +1,47 @@
+body {
+  background: green;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container .container__bio {
+    font-weight: 600;
+  }
+  .container .container__bio p {
+    color: lightcoral;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container .container__bio {
+    font-weight: 600;
+  }
+  .container .container__bio:hover {
+    color: blueviolet;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+  .container .container__bio {
+    font-weight: 600;
+  }
+  .container .container__bio:hover {
+    color: peru;
+  }
+}
+/*# sourceMappingURL=index.css.map */
